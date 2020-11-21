@@ -22,7 +22,7 @@ from userge import userge, Message, Config
 
 
 @userge.on_cmd(
-    "kang", about={
+    "curry", about={
         'header': "kangs stickers or creates new ones",
         'flags': {
             '-s': "without link",
