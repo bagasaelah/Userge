@@ -20,10 +20,10 @@ ALLOWED_COLLECTION = get_collection("PM_PERMIT")
 
 pmCounter: Dict[int, int] = {}
 allowAllFilter = filters.create(lambda _, __, ___: Config.ALLOW_ALL_PMS)
-noPmMessage = bk_noPmMessage = ("Hello {fname} this is an automated message\n"
-                                "Please wait until you get approved to direct message "
-                                "And please dont spam until then ")
-blocked_message = bk_blocked_message = "**You were automatically blocked**"
+noPmMessage = bk_noPmMessage = ("Haiii {fname} ini pesan otomatis\n"
+                                "Mohon Tunggu Owner saya menyetujui pesan anda"
+                                "DAN JANGAN SPAM KARENA AKAN SAYA BLOCK! ")
+blocked_message = bk_blocked_message = "**Kamuu Otomatis Ke Block hahaha**"
 
 
 async def _init() -> None:
